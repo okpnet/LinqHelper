@@ -1,0 +1,12 @@
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\bin\Debug\net6.0\LinqHelper.deps.json
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\bin\Debug\net6.0\LinqHelper.dll
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\bin\Debug\net6.0\LinqHelper.pdb
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.AssemblyInfoInputs.cache
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.AssemblyInfo.cs
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.csproj.CoreCompileInputs.cache
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.sourcelink.json
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.dll
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\refint\LinqHelper.dll
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\LinqHelper.pdb
+E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\ref\LinqHelper.dll
