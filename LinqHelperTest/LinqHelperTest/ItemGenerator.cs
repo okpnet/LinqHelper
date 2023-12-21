@@ -18,8 +18,9 @@ namespace LinqHelperTest
             var test6 = new TestItem { Name = "3-1", Parernt = test3 };
             var test7 = new TestItem { Name = "3-1-1", Parernt = test6 };
             var test8 = new TestItem { Name = "3-1-2", Parernt = test6 };
-            test1.Children = new[] { test4, test5 };
-            test3.Children = new[] { test6 };
+            //test1.Children = new[] { test4, test5 };
+            //test3.Children = new[] { test6 };
+            //test6.Children = new[] { test7, test8 };
             return new[] { test1, test2, test3, test4, test5, test6, test7, test8 };
         }
     }

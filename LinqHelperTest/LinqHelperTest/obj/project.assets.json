@@ -2307,25 +2307,23 @@
     ]
   },
   "packageFolders": {
-    "E:\\.nuget": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\htakahashi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
+      "projectUniqueName": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
       "projectName": "LinqHelperTest",
-      "projectPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
-      "packagesPath": "E:\\.nuget",
-      "outputPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelperTest\\LinqHelperTest\\obj\\",
+      "projectPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
+      "packagesPath": "C:\\Users\\htakahashi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\隼人さん\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\htakahashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2333,17 +2331,17 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\隼人さん\\OneDrive\\nugetServer": {},
-        "C:\\Users\\隼人さん\\OneDrive\\nugetServer": {}
+        "C:\\Users\\htakahashi\\OneDrive - ＹＵＲＩホールディングス株式会社　＊\\Nuget": {},
+        "C:\\Users\\htakahashi\\OneDrive\\nugetServer": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper.csproj": {
-              "projectPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper.csproj"
+            "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {
+              "projectPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj"
             }
           }
         }
@@ -2391,7 +2389,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
