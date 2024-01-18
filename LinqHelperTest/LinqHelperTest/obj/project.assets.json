@@ -599,7 +599,7 @@
           }
         }
       },
-      "LinqHelper/1.0.0": {
+      "LinqHelper/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
@@ -2291,7 +2291,7 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "LinqHelper/1.0.0": {
+    "LinqHelper/1.1.0": {
       "type": "project",
       "path": "../../LinqHelper/LinqHelper.csproj",
       "msbuildProject": "../../LinqHelper/LinqHelper.csproj"
@@ -2299,7 +2299,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LinqHelper >= 1.0.0",
+      "LinqHelper >= 1.1.0",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
@@ -2389,7 +2389,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

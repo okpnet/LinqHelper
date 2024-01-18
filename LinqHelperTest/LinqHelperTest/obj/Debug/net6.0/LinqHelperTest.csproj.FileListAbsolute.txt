@@ -104,3 +104,4 @@ C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelperTest\LinqHe
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelperTest\LinqHelperTest\obj\Debug\net6.0\LinqHelperTest.pdb
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelperTest\LinqHelperTest\obj\Debug\net6.0\LinqHelperTest.genruntimeconfig.cache
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelperTest\LinqHelperTest\obj\Debug\net6.0\ref\LinqHelperTest.dll
+C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelperTest\LinqHelperTest\obj\Debug\net6.0\LinqHelperTest.sourcelink.json

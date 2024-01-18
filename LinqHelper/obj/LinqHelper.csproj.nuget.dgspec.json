@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj",
         "projectName": "LinqHelper",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

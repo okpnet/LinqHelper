@@ -19,6 +19,13 @@ namespace LinqHelperTest
                 );
             var test= result.ToArray();
             Assert.IsNotNull(test);
+
+            var items = ItemGenerator.Create();
+            var path = LambdaExtension.GetPropertyPath<TestItem>(t => t.Name);
+            Assert.IsNotNull(path);
+            var val = items.First().GetPropertyValueFromPath(path);
+            Assert.IsNotNull(val);
+            items.First().SetPropertyValueFromPath(path, val);
         }
     }
 }

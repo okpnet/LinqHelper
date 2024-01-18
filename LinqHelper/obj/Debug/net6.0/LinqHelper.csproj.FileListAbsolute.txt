@@ -13,7 +13,6 @@ E:\GitRepos\PrivateGit\CsLinqLibrary\LinqHelper\obj\Debug\net6.0\ref\LinqHelper.
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\bin\Debug\net6.0\LinqHelper.deps.json
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\bin\Debug\net6.0\LinqHelper.dll
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\bin\Debug\net6.0\LinqHelper.pdb
-C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\LinqHelper.csproj.AssemblyReference.cache
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\LinqHelper.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\LinqHelper.AssemblyInfoInputs.cache
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\LinqHelper.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\refint\LinqHelper.dll
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\LinqHelper.pdb
 C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\ref\LinqHelper.dll
+C:\Users\htakahashi\Documents\Git\CsLinqLibrary\LinqHelper\LinqHelper\obj\Debug\net6.0\LinqHelper.sourcelink.json
