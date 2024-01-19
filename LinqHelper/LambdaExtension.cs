@@ -1,5 +1,6 @@
 ﻿using System.Linq.Expressions;
 using System.Reflection;
+using System.Xml.Linq;
 
 namespace LinqHelper
 {
@@ -60,7 +61,7 @@ namespace LinqHelper
         /// <exception cref="Exception">値の型が違うとき</exception>
         public static void SetPropertyValueFromPath<T, TValue>(this T target,string propertyPath,TValue value) where T:class
         {
-            var property=GetPropertyFromPath(typeof(T),propertyPath);
+            var property=GetPropertyFromPath(target.GetType(),propertyPath);
             if(property is null)return;
             try
             {
@@ -115,16 +116,17 @@ namespace LinqHelper
         /// <param name="baseType"></param>
         /// <param name="propertyPath"></param>
         /// <returns></returns>
-        public static Expression GetExpressionFieldFromType(this Type type, string propertyPath, ParameterExpression param)
+        public static Expression GetExpressionFieldFromType(this Type type, string propertyPath)
         {
             //var param = Expression.Parameter(type,"_arg_"+type.Name);
-            Expression body = param;
+            Expression body = Expression.Parameter(type);
             foreach (var member in propertyPath.Split('.'))
             {
                 body = Expression.PropertyOrField(body, member);
             };
             return body;
         }
+
         /// <summary>
         /// インスタンスとパスから、子プロパティを含めて検索してオブジェクトを取り出す
         /// </summary>
@@ -137,6 +139,9 @@ namespace LinqHelper
             foreach (var propName in propertyPath.Split('.'))
             {
                 if (value is null) return null;
+#if DEBUG
+                var properties = value.GetType().GetProperties();
+#endif
                 var info = value.GetType().GetProperty(propName);
                 value = info?.GetValue(value, null);
             }

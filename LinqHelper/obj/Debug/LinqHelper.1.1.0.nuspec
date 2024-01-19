@@ -6,7 +6,7 @@
     <authors>hayato takahashi</authors>
     <description>Package Description</description>
     <copyright>MIT</copyright>
-    <repository type="git" commit="84aaf78ac74ed90589f2d430598f101814b596df" />
+    <repository type="git" commit="71db3ba0c2965f08b099aea4b1ae720e35020404" />
     <dependencies>
       <group targetFramework="net6.0" />
     </dependencies>
