@@ -599,7 +599,7 @@
           }
         }
       },
-      "LinqHelper/1.1.0": {
+      "LinqHelper/1.1.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
@@ -2291,7 +2291,7 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "LinqHelper/1.1.0": {
+    "LinqHelper/1.1.4": {
       "type": "project",
       "path": "../../LinqHelper/LinqHelper.csproj",
       "msbuildProject": "../../LinqHelper/LinqHelper.csproj"
@@ -2299,7 +2299,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LinqHelper >= 1.1.0",
+      "LinqHelper >= 1.1.4",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
@@ -2307,23 +2307,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\htakahashi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "E:\\.nuget": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
+      "projectUniqueName": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
       "projectName": "LinqHelperTest",
-      "projectPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
-      "packagesPath": "C:\\Users\\htakahashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\obj\\",
+      "projectPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\LinqHelperTest.csproj",
+      "packagesPath": "E:\\.nuget",
+      "outputPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelperTest\\LinqHelperTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\htakahashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\隼人さん\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2331,17 +2333,17 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\htakahashi\\OneDrive - ＹＵＲＩホールディングス株式会社　＊\\Nuget": {},
-        "C:\\Users\\htakahashi\\OneDrive\\nugetServer": {},
+        "C:\\Users\\隼人さん\\OneDrive\\nugetServer": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {
-              "projectPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj"
+            "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {
+              "projectPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj"
             }
           }
         }

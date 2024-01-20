@@ -62,16 +62,10 @@ namespace LinqHelper
         public static void SetPropertyValueFromPath<T, TValue>(this T target,string propertyPath,TValue value) where T:class
         {
             var property=GetPropertyFromPath(target.GetType(),propertyPath);
-            if(property is null)return;
+            if(property is null || property.SetMethod is null)return;
             try
             {
-                if(property.PropertyType == typeof(TValue))
-                {
-                    property.SetValue(target, value);
-                    return;
-                }
-                var convertValue=Convert.ChangeType(value, property.PropertyType);
-                property.SetValue(target, convertValue);
+                property.SetValue(target, value);
             }
             catch (Exception ex)
             {
@@ -90,23 +84,16 @@ namespace LinqHelper
         public static void SetPropertyValue<T, TValue>(this T target, Expression<Func<T, TValue>> member, TValue value) 
         {
             var memberSelectorExpression = member.Body as MemberExpression;
-            if (memberSelectorExpression != null) { var property = memberSelectorExpression.Member as PropertyInfo; 
-                if (property != null)
+            if (memberSelectorExpression != null)
+            {
+                if (memberSelectorExpression.Member is not PropertyInfo property || property.SetMethod is null) return;
+                try
                 {
-                    try
-                    {
-                        if (property.PropertyType == typeof(TValue))
-                        {
-                            property.SetValue(target, value);
-                            return;
-                        }
-                        var convertValue = Convert.ChangeType(value, property.PropertyType);
-                        property.SetValue(target, convertValue);
-                    }
-                    catch (Exception ex)
-                    {
-                        throw new Exception($"Different value '{typeof(TValue).Name}' type. ", ex);
-                    }
+                    property.SetValue(target, value);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception($"Different value '{typeof(TValue).Name}' type. ", ex);
                 }
             }
         }

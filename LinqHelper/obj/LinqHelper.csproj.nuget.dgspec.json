@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {}
+    "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {
-      "version": "1.1.0",
+    "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj": {
+      "version": "1.1.4",
       "restore": {
-        "projectUniqueName": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj",
+        "projectUniqueName": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj",
         "projectName": "LinqHelper",
-        "projectPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj",
-        "packagesPath": "C:\\Users\\htakahashi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\htakahashi\\Documents\\Git\\CsLinqLibrary\\LinqHelper\\LinqHelper\\obj\\",
+        "projectPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\LinqHelper.csproj",
+        "packagesPath": "E:\\.nuget",
+        "outputPath": "E:\\GitRepos\\PrivateGit\\CsLinqLibrary\\LinqHelper\\LinqHelper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\htakahashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\隼人さん\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,9 +26,9 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\htakahashi\\OneDrive - ＹＵＲＩホールディングス株式会社　＊\\Nuget": {},
-          "C:\\Users\\htakahashi\\OneDrive\\nugetServer": {},
+          "C:\\Users\\隼人さん\\OneDrive\\nugetServer": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
