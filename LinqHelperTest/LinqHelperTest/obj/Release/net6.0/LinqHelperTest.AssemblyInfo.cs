@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinqHelperTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9d9f80aab8bfa9c58cd8fac28c1cba7f19bea5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinqHelperTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinqHelperTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
